@@ -27,7 +27,7 @@ padding-bottom: 5%;
 
 h1, h2, h3, h4, h5, h6
 { font: normal 165% 'century gothic', arial, sans-serif;
-  color: #2DB8CD;
+  color: #032bbe;
   margin: 0 0 14px 0;
   padding: 10px 0 5px 0;}
 
@@ -54,7 +54,7 @@ h6
 a, a:hover
 { outline: none;
   text-decoration: underline;
-  color: #A4AA04;}
+  color: #B60000;}
 
 a:hover
 { text-decoration: none;}
@@ -96,7 +96,8 @@ ol li
 
 #main, #logo, #menubar, #site_content, #footer
 { margin-left: auto;
-  margin-right: auto;}
+  margin-right: auto;
+  background: white;}
 
 #main
 { padding-bottom: 20px;}
@@ -161,8 +162,8 @@ ul#menu li a
   background: #E0E0E0;}
 
 ul#menu li.selected a, ul#menu li.selected a:hover
-{ background: #FFF;
-  color: #B60000;}
+{ background: #032bbe;
+  color: white;}
 
 ul#menu li a:hover
 { color: #B60000;}
@@ -172,8 +173,8 @@ ul#menu li a:hover
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 10px 20px 20px 20px;
-  background: #F6F6F0 url(back.png) repeat-y;
-  border: 15px solid #FFF;}
+  background: #eaeef9 url(back.png) repeat-y;
+  border: 3px solid #032bbe;}
 
 .sidebar
 { float: right;
@@ -296,3 +297,7 @@ table tr td
 { background: #E5E5DB;
   color: #47433F;
   border-top: 1px solid #FFF;}
+
+.toplogo{
+  height: 80px;
+}
